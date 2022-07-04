@@ -24,10 +24,6 @@
 
 double integral_Trapezio(double a, double b , Fx_polinomio *Ptr_Function, double grau, FX_ *PtrPow){
 
-	printf(">> %.2f \n",((*Ptr_Function)(b, grau,PtrPow)));
-	printf(">> %.2f \n",((*Ptr_Function)(a, grau,PtrPow)));
-	printf(">> %.2f \n",(b-a));
-
 
 	return ( ( (*Ptr_Function)(b, grau,PtrPow) - (*Ptr_Function)(a, grau,PtrPow)  ) * ( b - a ) )/2;
 

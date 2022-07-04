@@ -33,7 +33,7 @@ int main(int argc, char **argv) {
 
 	double s = integral_Trapezio(1, 10, Ptr_Function, 2,PtrPow);
 
-
+	printf("%f ",s);
 
 	return 0 ;
 }
