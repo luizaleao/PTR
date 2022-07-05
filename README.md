@@ -1,2 +1,2 @@
 # PTR
-trabalho de programação em tempo real, usando C.
+Trabalho de programação em tempo real, usando C.
