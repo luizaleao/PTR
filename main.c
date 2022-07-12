@@ -3,7 +3,6 @@
  *      Created on: 29 de jun. de 2022
  *      Author: Luiza Paula Moreira Leão
  */
-*/
 
 #include <stdio.h>
 #include "matrix.h"
